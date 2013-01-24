@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>CWPlatform</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="http://127.0.0.1:8000/CWPlatform/ext/resources/css/ext-all.css" media="screen" rel="stylesheet" type="text/css" />
+		<!--<link href="http://127.0.0.1:8000/CWPlatform/ext/resources/css/xtheme-slate.css" media="screen" rel="stylesheet" type="text/css"  />-->
+		<link href="http://127.0.0.1:8000/CWPlatform/ext/resources/css/cwplatform.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://127.0.0.1:8000/CWPlatform/ext/resources/css/icons.css" media="screen" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/ext/adapter/ext/ext-base.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/ext/ext-all.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/ext/ext-all-debug.js"></script>
+		<script type="text/javascript">
+		/**
+		 * Function to allow one JavaScript filr to be included by another
+		 * 
+		 * @param {string} jsFile
+		 */
+		function includeJavaScript(jsFile) {
+		  document.write('<script type="text/javascript" src="'
+		    + jsFile + '"></scr' + 'ipt>'); 
+		}
+		Ext.BLANK_IMAGE_URL = 'http://127.0.0.1:8000/CWPlatform/ext/resources/images/default/s.gif';
+		</script>
+		
+		<script type="text/javascript">
+		// Ext.namespace will create these objects if they don't already exist
+		Ext.namespace('CWPlatform');
+		
+		</script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/Ext/ux/FileTreePanel.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/Ext/ux/FileTreeMenu.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/Ext/ux/UploadPanel.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/Ext/ux/MenuPanel.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/Ext/ux/SearchField.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/Ext/ux/TabCloseMenu.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/Ext/ux/CWPlatform/Panel.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/Ext/ux/CWPlatform/Icons.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/CWPlatform/Administration.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/CWPlatform/Content.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/CWPlatform/FileManager.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/CWPlatform/UserProfile.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/CWPlatform/MainScreen.js"></script>
+		<script type="text/javascript" src="http://127.0.0.1:8000/CWPlatform/js/CWPlatform/App.js"></script>
+	</head>
+	<body>
+		<div id="loading-mask"></div>
+		<div id="loading">
+			<div class="loading-indicator"><img src="/ext/resources/images/extanim32.gif" width="32" height="32" style="margin-right:8px;" alt="Loading" align="middle" />Loading...</div>
+		</div>
+		<div id="x-desktop">
+		</div>
+		<div id="tab-welcome">
+				<h1>Welcome to the Creatoor webPlatform  0.1</h1>
+		        <p>Vestibulum semper. Nullam non odio. Aliquam quam. Mauris eu lectus non nunc auctor ullamcorper. Sed tincidunt molestie enim. Phasellus lobortis justo sit amet quam. Duis nulla erat, varius a, cursus in, tempor sollicitudin, mauris. Aliquam mi velit, consectetuer mattis, consequat tristique, pulvinar ac, nisl. Aliquam mattis vehicula elit. Proin quis leo sed tellus scelerisque molestie. Quisque luctus. Integer mattis. Donec id augue sed leo aliquam egestas. Quisque in sem. Donec dictum enim in dolor. Praesent non erat. Nulla ultrices vestibulum quam.</p>
+		        <p>Duis hendrerit, est vel lobortis sagittis, tortor erat scelerisque tortor, sed pellentesque sem enim id metus. Maecenas at pede. Nulla velit libero, dictum at, mattis quis, sagittis vel, ante. Phasellus faucibus rutrum dui. Cras mauris elit, bibendum at, feugiat non, porta id, neque. Nulla et felis nec odio mollis vehicula. Donec elementum tincidunt mauris. Duis vel dui. Fusce iaculis enim ac nulla. In risus.</p>
+		        <p>Donec gravida. Donec et enim. Morbi sollicitudin, lacus a facilisis pulvinar, odio turpis dapibus elit, in tincidunt turpis felis nec libero. Nam vestibulum tempus ipsum. In hac habitasse platea dictumst. Nulla facilisi. Donec semper ligula. Donec commodo tortor in quam. Etiam massa. Ut tempus ligula eget tellus. Curabitur id velit ut velit varius commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi. Fusce ornare pellentesque libero. Nunc rhoncus. Suspendisse potenti. Ut consequat, leo eu accumsan vehicula, justo sem lobortis elit, ac sollicitudin ipsum neque nec ante.</p>
+		        <p>Aliquam elementum mauris id sem. Vivamus varius, est ut nonummy consectetuer, nulla quam bibendum velit, ac gravida nisi felis sit amet urna. Aliquam nec risus. Maecenas lacinia purus ut velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sit amet dui vitae lacus fermentum sodales. Donec varius dapibus nisl. Praesent at velit id risus convallis bibendum. Aliquam felis nibh, rutrum nec, blandit non, mattis sit amet, magna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam varius dignissim nibh. Quisque id orci ac ante hendrerit molestie. Aliquam malesuada enim non neque.</p>
+		 </div>
+	</body>
+</html>

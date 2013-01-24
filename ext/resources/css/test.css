@@ -1,0 +1,501 @@
+html, body {
+    font: normal 12px verdana;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    overflow: hidden;
+    height: 100%;
+}
+
+.action_edit {
+    background-image: url(../../images/oxygen/16x16/actions/edit.png) !important;
+}
+
+.action_delete {
+    background-image: url(../../images/oxygen/16x16/actions/edit-delete.png) !important;
+}
+
+.action_applyChanges {
+    background-image: url(../../images/oxygen/16x16/actions/dialog-ok-apply.png) !important;
+}
+
+.action_cancel {
+    background-image: url(../../images/oxygen/16x16/actions/dialog-cancel.png) !important;
+}
+
+.action_saveAndClose {
+    background-image: url(../../images/oxygen/16x16/actions/dialog-ok.png) !important;
+}
+
+.action_addContact {
+    background-image: url(../../images/oxygen/16x16/actions/add-user.png) !important;
+}
+
+.action_deleteContact {
+    background-image: url(../../images/oxygen/16x16/actions/delete-user.png) !important;
+}
+
+.action_exportAsPdf {
+    background-image: url(../../images/oxygen/16x16/mimetypes/pdf.png) !important;
+}
+
+.action_showArchived {
+    background-image: url(../../images/oxygen/16x16/actions/ark-extract.png) !important;
+}
+
+.action_hideArchived {
+    background-image: url(../../images/oxygen/16x16/actions/ark-delete.png) !important;
+}
+
+.action_logOut {
+    background-image: url(../../images/oxygen/16x16/actions/system-shutdown.png) !important;
+}
+
+.action_selectUser {
+    background-image: url(../../images/oxygen/16x16/actions/user.png) !important;
+}
+
+.action_selectGroup {
+    background-image: url(../../images/oxygen/16x16/actions/users.png) !important;
+}
+
+.action_tag {
+    background-image: url(../../images/oxygen/16x16/actions/rss-tag.png) !important;
+}
+
+.action_uploadImage {
+    background-image: url(../../images/oxygen/16x16/actions/insert-image.png) !important;
+}
+
+.action_cropImage {
+    background-image: url(../../images/oxygen/16x16/actions/select-rectangular.png) !important;
+}
+
+.renderer {
+    width: 12px;
+    float: left;
+    padding-left: 5px;
+}
+
+.renderer_accountUserIcon {
+    background-image: url(../../images/oxygen/16x16/actions/user.png) !important;
+}
+
+.renderer_accountGroupIcon {
+    background-image: url(../../images/oxygen/16x16/actions/users.png) !important;
+}
+
+.x-panel-footer-wizard {
+    border-color: #a9bfd3;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    background: #d0def0 url(../images/default/toolbar/bg.gif) repeat-x top left;
+}
+
+.x-panel-footer-wizard-status {
+    padding-left: 5px;
+    padding-top: 11px;
+    color: #15428b;
+    font: bold 11px tahoma, arial, verdana, sans-serif;
+    float: left;
+    width: auto;
+}
+
+.x-ux-form-icontextfield-labelicon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+    margin-top: -3px;
+}
+
+.x-tool-expand .x-tool-toggle {
+    background-position: 0 -195px;
+}
+
+.x-tool-collapse .x-tool-toggle {
+    background-position: 0 -210px;
+}
+
+.x-widget-tag-action-detach {
+    background-image: url(../../../images/oxygen/16x16/actions/draw-eraser.png) !important;
+}
+
+.x-widget-tag-tagitem {
+    margin: 1px 2px 1px 1px;
+    background-color: #FFF8E0;
+    height: 13px;
+    border: 1px solid gray;
+    float: left;
+    color: gray;
+}
+
+.x-widget-tag-tagitem-color {
+    padding: 0;
+    margin: 0;
+    float: left;
+    background-color: #FFF;
+    border-right: 1px solid gray;
+    widht: 4px;
+    height: 13px;
+}
+
+.x-widget-tag-tagitem-text {
+    padding: 0 5px 0 5px;
+    margin: 0;
+    line-height: 13px;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.x-widget-tag-tagitem-over {
+    border: 1px solid black;
+    color: black;
+}
+
+.x-widget-tag-tagitem-selected {
+    background-color: #FFFFCE;
+    border: 1px solid black;
+    color: black;
+}
+@CHARSET "UTF-8";
+
+.action_addList {
+    background-image: url(../../images/oxygen/16x16/actions/add-users.png) !important;
+}
+
+.action_edit {
+    background-image: url(../../images/oxygen/16x16/actions/edit.png) !important;
+}
+
+.action_delete {
+    background-image: url(../../images/oxygen/16x16/actions/edit-delete.png) !important;
+}
+
+.action_displayContacts {
+    background-image: url(../../images/oxygen/16x16/actions/user.png) !important;
+}
+
+.action_displayLists {
+    background-image: url(../../images/oxygen/16x16/actions/users.png) !important;
+}
+
+.AddressbookIconCls {
+    background-image: url(../../images/oxygen/16x16/apps/kaddressbook.png) !important;
+}
+
+.x-form-item-float-left {
+    float: left;
+    margin-right: 5px;
+}
+
+.x-tool-toggle-expander {
+    position: relative;
+    top: -23px;
+    left: 1px;
+    margin-bottom: -15px;
+}
+
+.x-ux-form-icontextfield-labelicon {
+    width: 13px;
+    height: 13px;
+}
+
+.ext-strict .x-form-text {
+    height: 15px;
+}
+
+.ext-safari .x-form-text {
+    height: 17px;
+}
+
+.x-form-field {
+    font-size: 11px;
+}
+
+.x-form-item {
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+
+.x-fieldset {
+    padding: 5px 5px 0 5px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.x-form-field-wrap .x-form-trigger {
+    height: 18px;
+}
+
+.ext-safari .x-form-field-wrap .x-form-trigger {
+    height: 18px;
+}
+
+.ext-safari .x-small-editor .x-form-trigger {
+    height: 17px;
+}
+
+.x-tab-strip-top .x-tab-strip-active .x-tab-right span.x-tab-strip-text {
+    padding-bottom: 3px;
+}
+
+.x-tab-strip span.x-tab-strip-text {
+    padding: 3px 0;
+}
+@CHARSET "UTF-8";
+
+.CrmIconCls {
+    background-image: url(../../images/oxygen/16x16/actions/paperbag.png) !important;
+}
+
+.actionPrev {
+    background-image: url(../../images/oxygen/16x16/actions/arrow-left.png) !important;
+}
+
+.actionNext {
+    background-image: url(../../images/oxygen/16x16/actions/arrow-right.png) !important;
+}
+
+.action1DayView {
+    background-image: url(../../images/oxygen/16x16/actions/1day.png) !important;
+}
+
+.action5DaysView {
+    background-image: url(../../images/oxygen/16x16/actions/5days.png) !important;
+}
+
+.action7DaysView {
+    background-image: url(../../images/oxygen/16x16/actions/7days.png) !important;
+}
+
+.actionMonthview {
+    background-image: url(../../images/oxygen/16x16/actions/month.png) !important;
+}
+
+.actionAdd {
+    background-image: url(../../images/oxygen/16x16/actions/edit-add.png) !important;
+}
+
+.actionAddTask {
+    background-image: url(../../images/oxygen/16x16/actions/todo.png) !important;
+}
+
+.actionEdit {
+    background-image: url(../../images/oxygen/16x16/actions/edit.png) !important;
+}
+
+.actionDelete {
+    background-image: url(../../images/oxygen/16x16/actions/edit-delete.png) !important;
+}
+
+.actionDisplayEvents {
+    background-image: url(../../images/oxygen/16x16/actions/user.png) !important;
+}
+
+.actionSaveAndClose {
+    background-image: url(../../images/oxygen/16x16/actions/document-save.png) !important;
+}
+
+.actionApplyChanges {
+    background-image: url(../../images/oxygen/16x16/actions/save-all.png) !important;
+}
+
+.filterSearch {
+    background-image: url(../../images/oxygen/16x16/actions/search-filter.png) !important;
+}
+
+.repeatAction {
+    background-image: url(../../images/oxygen/16x16/actions/xdays.png) !important;
+}
+
+.showEndedLeadsAction {
+    background-image: url(../../images/oxygen/16x16/actions/ark-extract.png) !important;
+}
+
+.hideEndedLeadsAction {
+    background-image: url(../../images/oxygen/16x16/actions/ark-delete.png) !important;
+}
+
+.showDetailsAction {
+    background-image: url(../../images/oxygen/16x16/actions/fileview-detailed.png) !important;
+}
+
+.hideDetailsAction {
+    background-image: url(../../images/oxygen/16x16/actions/fileview-column.png) !important;
+}
+
+.activities-item-small {
+    padding: 2px 4px;
+    border-bottom: 1px solid #B5B8C8;
+    font-size: 11px;
+}
+
+.productSummary-item-small {
+    padding: 2px 4px;
+    border-bottom: 1px solid #B5B8C8;
+    font-size: 11px;
+}
+
+.contact-item-small {
+    padding: 2px 4px;
+    border-bottom: 1px solid #B5B8C8;
+    font-size: 11px;
+}
+
+.contact-item {
+    padding: 2px 4px;
+    border-bottom: 1px solid #B5B8C8;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+    color: #999;
+}
+
+.contact-item p {
+    line-height: 13px;
+    margin: 7px 0;
+}
+
+.contacts_background {
+    background: #FFF url(../../extjs/resources/images/default/form/text-bg.gif) repeat-x scroll 0 19pt;
+    border: 1px solid #B5B8C8;
+    margin-right: 10px;
+}
+
+.contactType_lead {
+    background-color: #f4edf5;
+}
+
+.contactType_partner {
+    background-color: #edf5ee;
+}
+
+.contactType_internal {
+    background-color: #f5f5ed;
+}
+
+.contactType_lead_icon {
+    background-image: url(contact_lead.png) !important;
+}
+
+.contactType_partner_icon {
+    background-image: url(contact_partner.png) !important;
+}
+
+.contactType_internal_icon {
+    background-image: url(contact_internal.png) !important;
+}
+
+.productSummary {
+    background: transparent none repeat;
+    border: 0;
+    color: #000;
+    opacity: 1;
+    padding: 0;
+}
+
+.x-grid3-cell-inner, .x-grid3-hd-inner {
+    white-space: normal;
+}
+
+.lowPadding {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.borderTop {
+    border-top: solid;
+    border-top-color: #bbb;
+    border-top-width: 1px;
+}
+
+.x-view-over {
+    background-color: #efefef;
+}
+
+.TasksIconCls {
+    background-image: url(../../images/oxygen/16x16/actions/todo.png) !important;
+}
+
+.TasksMainGridStatus {
+    width: 12px;
+    height: 12px;
+}
+
+.TasksMainGridStatus-show_closed {
+    background-image: url(../../images/oxygen/16x16/actions/checkmark-korganizer.png) !important;
+}
+
+#TasksMainGrid .x-grid3-header {
+    background: #f9f9f9 url(../../images/grid3-dblhrow.gif) repeat-x left top;
+}
+
+#TasksMainGrid .new-task-row {
+    height: 24px;
+}
+
+#TasksMainGrid .new-task-row .x-small-editor {
+    overflow: hidden;
+    width: 100%;
+}
+
+#TasksMainGrid .new-task-row .x-small-editor input {
+    font-size: 11px;
+}
+
+.TasksProgress {
+    height: 12px;
+}
+
+.TasksProgressText {
+    color: #000;
+    font-size: 9px;
+    font-weight: bold;
+    left: 0;
+    overflow: hidden;
+    padding: 0 5px;
+    position: absolute;
+    text-align: center;
+}
+@CHARSET "UTF-8";
+
+.action_enable {
+    background-image: url(../../images/oxygen/16x16/actions/dialog-apply.png) !important;
+}
+
+.action_disable {
+    background-image: url(../../images/oxygen/16x16/actions/dialog-cancel.png) !important;
+}
+
+.action_settings {
+    background-image: url(../../images/oxygen/16x16/actions/view-choose.png) !important;
+}
+
+.action_permissions {
+    background-image: url(../../images/oxygen/16x16/status/dialog-password.png) !important;
+}
+
+.action_addGroup {
+    background-image: url(../../images/oxygen/16x16/actions/add-users.png) !important;
+}
+
+.AdminIconCls {
+    background-image: url(../../images/oxygen/16x16/apps/systemtray.png) !important;
+}
+
+.DialerIconCls {
+    background-image: url(../../images/oxygen/16x16/apps/kcall.png) !important;
+}
+
+.action_DialNumber {
+    background-image: url(../../images/oxygen/16x16/devices/audio-headset.png) !important;
+}

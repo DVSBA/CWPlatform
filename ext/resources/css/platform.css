@@ -1,0 +1,165 @@
+html, body {
+    margin:0;
+    padding:0;
+    border:0 none;
+    overflow:hidden;
+    height:100%;
+}
+a, b, body, cite, div, em, i, label, li, ol, p, strong, td, th, u, ul {
+	font-family:Verdana, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family:Verdana, sans-serif;
+}
+fieldset, form, input, optgroup, select, textarea {
+	font-family:"Trebuchet MS", Verdana, sans-serif;
+}
+
+a, body, div, label, li, ol, p, td, th, ul {
+	font-size:11px;
+	}
+h1, h2, h3, h4, h5, h6 {
+	font-size:12px;
+}
+fieldset, form, input, optgroup, select, textarea {
+	font-size:11px;
+}
+p {
+    margin:10px;
+}
+a {
+    color: #1860A8;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+img {
+	border:0px;
+}
+.settings {
+    background-image:url(../icons/fam/folder_wrench.png);
+}
+.nav {
+    background-image:url(../icons/fam/folder_go.png);
+}
+
+/* Header */
+#header {
+	margin:5px;
+	text-align:center !important;
+}
+
+/* status panel */
+#status-panel{
+    padding: 2px;
+    color: #555555;
+}
+#status-panel #statustext{
+    font-weight:bold;
+    margin-left:5px;
+    padding-left:5px;
+    border-left:solid gray 1px;
+}
+.light-panel-bg {
+    background: url(../images/panel-title-light-bg.gif);
+}
+
+/* Toolbar */
+.toolbar-profile {
+    background-image: url(../icons/toolbar/profile.png) !important;
+}
+.toolbar-users {
+    background-image: url(../icons/toolbar/users.png) !important;
+}
+.toolbar-cms {
+    background-image: url(../icons/toolbar/cms.png) !important;
+}
+.toolbar-crm {
+    background-image: url(../icons/toolbar/crm.png) !important;
+}
+.toolbar-home {
+    background-image: url(../icons/toolbar/home.png) !important;
+}
+.toolbar-logout {
+    background-image: url(../icons/toolbar/logout.png) !important;
+}
+
+/* west panel */
+#west-panel li {
+	zoom: 1;
+    background-position: 0px 3px;
+	background-repeat: no-repeat;
+	padding-left:20px;
+	margin-left:10px;
+	line-height: 22px;
+	border: 0px solid black;
+}
+.categories {
+	background-image: url(../icons/panels/folder_yellow.png);
+}
+.folder-green {
+    background-image: url(../icons/panels/folder_green.png);
+}
+.folder-blue {
+    background-image: url(../icons/panels/folder_blue.png);
+}
+.users_list {
+	background-image: url(../icons/panels/user.png);
+}
+.user_add {
+    background-image: url(../icons/panels/user_add.png);
+}
+
+/* actions panel */
+.action_editUser {
+	background-image: url(../icons/panels/action_editUser.png) !important;
+}
+/* actions panel */
+.action_deleteUser {
+    background-image: url(../icons/panels/action_deleteUser.png) !important;
+}
+
+/* loading mask */
+#loading-mask{
+	position:absolute;
+	left:0;
+	top:0;
+    width:100%;
+    height:100%;
+    z-index:20000;
+    background-color:white;
+}
+#loading{
+	position:absolute;
+	left:45%;
+	top:40%;
+	padding:2px;
+	z-index:20001;
+    height:auto;
+}
+#loading img {
+    margin-bottom:5px;
+}
+#loading .loading-indicator{
+	background:white;
+	color:#555;
+	font:bold 13px tahoma,arial,helvetica;
+	padding:10px;
+	margin:0;
+    text-align:center;
+    height:auto;
+}
+.x-menu * {
+	margin:0;padding:0;
+}
+.x-menu ol, .x-menu ul {
+	list-style:none;
+}
+.x-menu-item {
+	border-bottom:0px;
+}
+#adminmenu {
+	padding:0;margin:0;display:none;
+}
